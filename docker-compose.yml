@@ -1,0 +1,8 @@
+version: '3.9'
+
+services:
+  bot:
+    build: .
+    environment:
+      - BOT_TOKEN
+      - OPENAI_API_KEY
